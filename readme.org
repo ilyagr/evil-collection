@@ -578,6 +578,10 @@ more.
    - [[https://github.com/hlissner/doom-emacs/tree/develop/modules/editor/evil][Doom Emacs]]
 
 ** FAQ
+   - How do I figure out what the Evil-ified bindings for the mode I'm in are?
+   
+   : M-x describe-bindings
+   
    - Making SPC work similarly to [[https://github.com/syl20bnr/spacemacs][spacemacs]].
 
      ~evil-collection~ binds over SPC in many packages. To use SPC as a leader
